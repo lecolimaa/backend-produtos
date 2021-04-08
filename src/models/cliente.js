@@ -20,7 +20,7 @@ const Produtos = sequelize.define("produtos", {
     },   
     descricao: {
         allowNull: true,
-        type: Sequelize.TEXT,
+        type: Sequelize.STRING,
     }        
     
     },
